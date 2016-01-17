@@ -1,6 +1,6 @@
 {
   "ring": [
-    {"name": "Home", "url": "https://tdfischer.github.io/under-construction/"},
-    {"name": "Hackerbots", "url": "https://hackerbots.net/"}
+    {"name": "Home", "url": "https://tdfischer.github.io/under-construction/", "icon": "icons/construction.gif"},
+    {"name": "Hackerbots", "url": "https://hackerbots.net/", "icon": "icons/hackerbots.gif"}
   ]
 }
