@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-beta1/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/2.2.1/mustache.min.js"></script>
+<script type="text/javascript" src="embed.js"></script>
+<script type="text/mustache" id="siteLink">
+<a href="{{url}}"><h1>{{name}}</h1><img src="{{icon}}"></a>
+</script>
+</head>
+<body>
+<table>
+  <thead>
+    <tr>
+      <th colspan="4"><a
+        href="https://tdfischer.github.io/under-construction/">Under
+        Construction Webring</a></th>
+    </tr>
+  </thead>
+  <tr>
+    <th>Previous</th>
+    <th>Current</th>
+    <th>Random</th>
+    <th>Next</th>
+  </tr>
+  <tr>
+    <td id="previous"></td>
+    <td id="current"></td>
+    <td id="random"></td>
+    <td id="next"></td>
+  </tr>
+</table>
