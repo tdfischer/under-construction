@@ -3,8 +3,7 @@ function renderSite(site) {
 }
 
 $(document).ready(function() {
-  //var refer = document.referrer;
-  var refer = "https://hackerbots.net/identity/foo.html";
+  var refer = document.referrer;
   var blob = $.getJSON("ring.json", function(data) {
       var currentSite = undefined;
       var ring = data.ring;
